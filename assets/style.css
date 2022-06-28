@@ -1,0 +1,442 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none ;
+    list-style:none;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #363636;
+    height: 60px;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:13% ;
+}
+ul a  {
+    color: rgb(206, 206, 206);
+}
+
+/*----------------------------------section 1------------------------------------------*/
+.Home{
+    width: 100%;
+    height: 600px;
+    background-image: url(/cyber-gd193ed8db_1920.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+.home-title{
+    line-height: 75px;
+    letter-spacing: 5px;
+    color: #111111;
+}
+    
+.texto h1{
+    letter-spacing: 1.8px;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    color:rgb(214, 210, 210) ;
+    font-size: 3vh;
+    background-color: rgba(109, 108, 108, 0.466);
+}
+.texto.active h1{
+    opacity: 0;
+}
+
+.texto h1::after{
+    content: "|";
+    margin-left: 1%;
+    opacity: 1;
+    animation: blink .7 infinite both;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+/*----------------------------------section 2------------------------------------------*/
+#Sobre{
+width: 100%;
+height: 700px;
+line-height: 35px;
+letter-spacing: 1.5px;
+background-color: rgb(46, 46, 46);
+}
+.slides img{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 45%;
+}
+#Sobre ul{
+position: absolute;
+font-size: 4vh;
+padding: 30px;
+margin-left: 50%;
+margin-top: 10%;
+color: #fff;
+  
+}
+/*----------------------------------section 3------------------------------------------*/
+#Serviços{
+    width: 1900px;
+    height: 1000px;
+    background-color: rgb(222, 222, 222);
+}
+#Serviços h1{
+    display: inline-flex;
+    margin-top: 7%;
+    margin-left: 9%;
+    position: absolute;
+    font-size: 5vh;
+
+}
+#Serviços h3{
+    display: inline-flex;
+    margin-top: 11%;
+    margin-left: 9%;
+    position: absolute;
+    font-size: 2.3vh;
+    font-weight: bold;
+
+}
+
+
+
+.card1 img {
+    width: 101%;
+    position: static;
+   
+}
+.card1 p{
+    position: absolute;
+    margin-right: 30%;
+
+}
+.card1 button{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 2.8%;
+    width: 10%;
+    height: 5%;
+    border-radius: 40% ;
+    border-bottom: 20%;
+    background-color: blanchedalmond;
+
+}
+.card1 h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 2%;
+    font-size: 36px;
+
+}
+.card1 p{
+    font-size: 20px;
+    margin-top: 6%;
+    color: aliceblue;
+     padding: 1%;
+}
+.card1 a{
+    color: black
+}
+.card1 h4{
+    font-size: 20px;
+}
+
+.card2 img {
+    width: 101%;
+    position: static;
+   
+}
+.card2 p{
+    position: absolute;
+    margin-right: 30%;
+
+}
+.card2 button{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 2.8%;
+    width: 10%;
+    height: 5%;
+    border-radius: 40% ;
+    border-bottom: 20%;
+    background-color: blanchedalmond;
+
+}
+.card2 h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 2%;
+    font-size: 35px;
+    
+    
+    
+
+}
+.card2 p{
+    font-size: 20px;
+    margin-top: 6%;
+    color: aliceblue;
+     padding: 1%;
+}
+.card2 a{
+    color: black
+}
+.card2 h4{
+    font-size: 20px;
+}
+
+.card3 img {
+    width: 101%;
+    position: static;
+   
+}
+.card3 p{
+    position: absolute;
+    margin-right: 30%;
+
+}
+.card3 button{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 2.8%;
+    width: 10%;
+    height: 5%;
+    border-radius: 40% ;
+    border-bottom: 20%;
+    background-color: blanchedalmond;
+
+}
+.card3 h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 2%;
+    font-size: 35px;
+
+}
+.card3 p{
+    font-size: 20px;
+    margin-top: 5%;
+    color: aliceblue;
+     padding: 1%;
+}
+.card3 a{
+    color: black
+}
+.card3 h4{
+    font-size: 20px;
+}
+
+
+.card4 img {
+    width: 101%;
+    position: static;
+   
+}
+.card4 p{
+    position: absolute;
+   
+}
+.card4 button{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 2.8%;
+    width: 10%;
+    height: 5%;
+    border-radius: 40% ;
+    border-bottom: 20%;
+    background-color: blanchedalmond;
+
+}
+.card4 h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 2%;
+    font-size: 35px;
+
+}
+.card4 p{
+    font-size: 20px;
+    margin-top: 5%;
+    color: aliceblue;
+     padding: 1%;
+}
+.card4 a{
+    color: black
+}
+.card4 h4{
+    font-size: 20px;
+}
+
+
+.card1, .card2, .card3, .card4{
+
+    width: 15%;
+    height: 400px;
+    background: rgb(222, 222, 222);
+    border: solid ;
+    display: inline-flex;
+    margin-left: 7.2%;
+    transition: 0.5s;
+    margin-top: 20%;
+    position: static;
+    
+}
+
+.card1 button:hover{
+    background-color: rgb(58, 179, 179);
+    transition: 1s;
+}
+.card1 button{
+
+    transition: 1s;
+}
+.card2 button:hover{
+    background-color: rgb(58, 179, 179);
+    transition: 1s;
+}
+.card2 button{
+
+    transition: 1s;
+}
+
+.card3 button:hover{
+    background-color: rgb(58, 179, 179);
+    transition: 1s;
+}
+.card3 button{
+
+    transition: 1s;
+}
+.card4 button:hover{
+    background-color: rgb(58, 179, 179);
+    transition: 1s;
+}
+.card4 button{
+
+    transition: 1s;
+}
+
+
+/*----------------------------------section 4------------------------------------------*/
+
+
+
+#Formulario{
+
+    width: 1900px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.695);
+}
+
+.formulario h1{
+    display: inline-flex;
+    font-size: 5vh;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+.nome {
+    display: inline-flex;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+.nome h1{
+    font-size: 3vh;
+}
+
+.sobrenome {
+    display: inline-flex;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 17%;
+}
+.sobrenome h1{
+    font-size: 3vh;
+}
+.email{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 17%;
+}
+.email h1{
+    font-size: 3vh;
+}
+
+
+.enviar{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 26%;
+}
+
+/*----------------------------------section 5------------------------------------------*/
+
+#Contato{
+
+    width: 100%;
+    height: 300px;
+    background-color: rgba(196, 196, 196, 0.695);
+}
+.redes-socias {
+    position: absolute;
+}
+.redes-socias img{
+    display: inline-flex;
+    width: 4%;
+    height: 4%;
+    padding-left: 3%;
+    margin-top: 12%;
+
+}
+
+
+.redes-socias p{
+    display: flex;
+    margin-left: 35% ;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.email2 h2{
+    display: inline-flex;
+    position: absolute;
+    padding-top:1.5% ;
+    margin-left: 66%;
+    margin-top: 8%;
+}
+
+.email2 h3{
+    display: inline-flex;
+    position: absolute;
+    font-size: 2.5vh;
+    padding-top:1.5% ;
+    margin-left: 66%;
+    margin-top: 4%;
+}
+
+
